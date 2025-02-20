@@ -11,4 +11,10 @@ public class FabricaDePelucia implements FabricaDeBrinquedos {
 		// TODO Auto-generated method stub
 		return new UrsinhoDePelucia();
 	}
+	
+	@Override
+	public Tartaruga criarTartaruga() {
+		// TODO Auto-generated method stub
+		return new TartarugaDePelucia();
+	}
 }
